@@ -6,7 +6,7 @@ import PIL.ImageDraw
 
 
 # Find all the faces in the image
-
+from face_recognition import face_locations
 
 number_of_faces = len(face_locations)
 print("I found {} face(s) in this photograph.".format(number_of_faces))
